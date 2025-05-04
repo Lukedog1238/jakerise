@@ -1,0 +1,89 @@
+/* about.css */
+
+/* About Hero Section */
+.about-hero {
+    background-color: #282c34;
+    padding: 60px 30px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.about-hero h1 {
+    font-size: 3em;
+    color: #f0f0f0;
+    margin-bottom: 15px;
+}
+
+.about-hero p {
+    font-size: 1.2em;
+    color: #a8dadc;
+}
+
+/* About Content */
+.about-content {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.profile-image {
+    flex-basis: 30%;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.profile-text {
+    flex-basis: 70%;
+}
+
+.profile-text h2 {
+    color: #f0f0f0;
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #457b9d;
+    padding-bottom: 10px;
+}
+
+.profile-text p {
+    color: #a8dadc;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.profile-text .skills-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.profile-text .skills-list li {
+    background-color: #343a40;
+    color: #f0f0f0;
+    padding: 10px 15px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.profile-text ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #a8dadc;
+    margin-bottom: 20px;
+}
+
+.profile-text ul li {
+    margin-bottom: 8px;
+}

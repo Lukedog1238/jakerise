@@ -1,0 +1,70 @@
+/* testimonials.css */
+
+/* Testimonials Hero Section */
+.testimonials-hero {
+    background-color: #282c34;
+    padding: 60px 30px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.testimonials-hero h1 {
+    font-size: 3em;
+    color: #f0f0f0;
+    margin-bottom: 15px;
+}
+
+.testimonials-hero p {
+    font-size: 1.2em;
+    color: #a8dadc;
+}
+
+/* Testimonials Grid */
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 30px;
+    padding: 20px;
+}
+
+.testimonial-item {
+    background-color: #343a40;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial-item .quote {
+    color: #f0f0f0;
+    font-size: 1.1em;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    font-style: italic;
+    quotes: "“" "”" "‘" "’";
+}
+
+.testimonial-item .quote::before {
+    content: open-quote;
+    font-size: 1.5em;
+    color: #457b9d;
+    margin-right: 5px;
+}
+
+.testimonial-item .quote::after {
+    content: close-quote;
+    font-size: 1.5em;
+    color: #457b9d;
+    margin-left: 5px;
+}
+
+.testimonial-item cite {
+    display: block;
+    color: #a8dadc;
+    font-size: 0.9em;
+    text-align: right;
+}
+
+.testimonial-item cite::before {
+    content: "— ";
+}

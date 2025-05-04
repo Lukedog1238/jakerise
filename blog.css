@@ -1,0 +1,134 @@
+/* blog.css */
+
+/* Blog Hero Section */
+.blog-hero {
+    background-color: #282c34;
+    padding: 60px 30px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.blog-hero h1 {
+    font-size: 3em;
+    color: #f0f0f0;
+    margin-bottom: 15px;
+}
+
+.blog-hero p {
+    font-size: 1.2em;
+    color: #a8dadc;
+}
+
+/* Blog Container */
+.blog-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Blog Grid */
+.blog-grid {
+    display: grid;
+    grid-template-columns: 3fr 1fr; /* Main content takes 3/4, sidebar 1/4 of the space */
+    gap: 30px;
+}
+
+.blog-post {
+    background-color: #343a40;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+}
+
+.blog-post img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #457b9d;
+}
+
+.blog-post h3 {
+    color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 0;
+    font-size: 1.8em;
+}
+
+.blog-post h3 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.blog-post .post-meta {
+    color: #a8dadc;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+}
+
+.blog-post .post-excerpt {
+    color: #a8dadc;
+    padding: 0 20px 20px;
+    line-height: 1.6;
+}
+
+.blog-post .button {
+    display: inline-block;
+    margin: 0 20px 20px;
+}
+
+/* Blog Sidebar */
+.blog-sidebar {
+    padding: 20px;
+    background-color: #282c34;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.blog-sidebar .widget {
+    margin-bottom: 30px;
+}
+
+.blog-sidebar .widget h3 {
+    color: #f0f0f0;
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #457b9d;
+    padding-bottom: 8px;
+}
+
+.blog-sidebar .widget input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #343a40;
+    background-color: #343a40;
+    color: #f0f0f0;
+    border-radius: 6px;
+}
+
+.blog-sidebar .widget button.button {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.blog-sidebar .widget ul {
+    list-style: none;
+    padding: 0;
+}
+
+.blog-sidebar .widget ul li {
+    margin-bottom: 10px;
+}
+
+.blog-sidebar .widget ul li a {
+    color: #a8dadc;
+    text-decoration: none;
+}
+
+.blog-sidebar .widget ul li a:hover {
+    color: #457b9d;
+}
